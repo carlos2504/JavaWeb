@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CRUD</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/Estilos.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    </head>
+    <body class="fondo">
+        <div>
+            <center>
+                <h1 style="font-size: 50px; color: red">Inicio de Sesión</h1>
+                <form action="iniciosesion" method="post" style="font-size: 40px;">
+
+                    <h1 style="font-size: 30px; color: yellow">Usuario</h1>
+                    <input type="email" name="usuario" id="txtuser" size="30" required="" placeholder="E-mail"/>
+                    <h1 style="font-size: 30px; color: gold">Contraseña</h1>
+                    <input type="password" name="contrasena" id="txtpassword" size="30" required="" placeholder="Password"/><br><br>
+                    <input type="submit" value="Iniciar sesión" id="btniniciar" style=" font-size: 35px;" class="enviar"/>
+                </form><br>
+                <form action="PaginaRegistro">
+                    <input type="submit" value="Registrate" id="btnregistrar" style="font-size: 35px; ;" class="pagRegistro"/>
+                </form>
+            </center>
+        </div>
+        <div align="right">
+
+        </div>
+
+
+    </body>
+</html>
